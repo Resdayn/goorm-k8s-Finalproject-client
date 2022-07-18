@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import SearchBar from "./SearchBar";
 
 const Navigation = () => {
@@ -6,7 +7,9 @@ const Navigation = () => {
             <ul>
                 <li><h1>Steam DB Clone</h1></li>
                 <li><SearchBar /></li>
-                <li><button>Sign In</button></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/chart">Chart</Link></li>
+                <li><Link to="/list">List</Link></li>
             </ul>
         </nav>
     );
