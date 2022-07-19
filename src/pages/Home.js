@@ -1,11 +1,11 @@
 import Landing from "../components/Landing";
-import TestTable from "../components/TestTable";
+import TableDisplay from "../components/TableDisplay";
 
 const Home = () => {
   return (
     <>
       <Landing />
-      <TestTable />
+      <TableDisplay />
     </>
   );
 };
