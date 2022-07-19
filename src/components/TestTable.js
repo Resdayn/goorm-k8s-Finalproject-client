@@ -1,7 +1,6 @@
 const TestTable = () => {
   return (
     <section>
-      <h1>Current Deals</h1>
       <table>
         <thead>
           <tr>
