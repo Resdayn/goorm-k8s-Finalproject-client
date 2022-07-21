@@ -9,7 +9,6 @@ const Home = () => {
       <Landing />
       <TableDisplay />
       <Chart />
-      <Footer />
     </>
   );
 };
