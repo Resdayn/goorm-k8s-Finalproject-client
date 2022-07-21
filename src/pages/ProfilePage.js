@@ -1,5 +1,7 @@
+import ItemDisplay from "../components/ItemDisplay";
+
 const ProfilePage = () => {
-    return (<h1>ProfilePage Component</h1>);
+    return (<ItemDisplay />);
 };
 
 export default ProfilePage;
