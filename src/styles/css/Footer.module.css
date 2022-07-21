@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  margin: 1rem 0;
+}
+
+.footer > * {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kubeIcon {
+  width: 75px;
+  height: 75px;
+}
+
+.logoSection > * {
+    margin:  0 1rem;
+}
+
+.footerLinks > * {
+    margin: 0 1rem;
+}
