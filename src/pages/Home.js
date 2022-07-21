@@ -1,6 +1,7 @@
 import Chart from "../components/Chart";
 import Landing from "../components/Landing";
 import TableDisplay from "../components/TableDisplay";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Landing />
       <TableDisplay />
       <Chart />
+      <Footer />
     </>
   );
 };
