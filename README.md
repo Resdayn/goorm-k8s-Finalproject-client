@@ -3,14 +3,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
 ### `Figma`
 
 You can access to our project's wireframming page.
 https://www.figma.com/file/sVfSWPWxNQ49WDGPeplSOI/P2P-Games-Beta?node-id=0%3A1
+
+## Available Scripts
+
+In the project directory, you can run:
 
 ### `npm start`
 
