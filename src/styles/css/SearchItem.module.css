@@ -1,0 +1,69 @@
+/* The main container */
+
+.SearchItemContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+/* Thumbnail */
+
+.SearchItemThumbnail img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Platform */
+
+.SearchItemPlatform {
+    width: 10vw;
+}
+
+/* Name Section */
+
+.SearchItemNameSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+}
+
+.SearchItemName {
+    width: 100%;
+}
+
+.SearchItemTags {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+}
+
+.SearchItemTags h4 {
+    border: 1px solid black;
+    border-radius: 25%;
+    padding: .2rem;
+}
+
+/* Price Section */
+
+.SearchItemPriceSection, .SearchItemPriceSection div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Button Section */
+
+.SearchItemButtonSection button {
+    padding: 1rem;
+}
+.SearchItemButtonSection a {
+    text-decoration: none;
+    color: black;
+}
