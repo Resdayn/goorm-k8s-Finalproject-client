@@ -30,6 +30,13 @@ const DlcDisplay = () => {
     <section className={styles.DlcTableContainer}>
       <h2 className={styles.DlcTableTitle}>DLCs</h2>
       <table className={styles.DlcTable}>
+        <thead>
+            <tr>
+                <td><strong>APP ID</strong></td>
+                <td><strong>Name</strong></td>
+                <td><strong>Release Date</strong></td>
+            </tr>
+        </thead>
         <tbody>
           {dlcData ? (
             dlcData.map((dlc) => (
