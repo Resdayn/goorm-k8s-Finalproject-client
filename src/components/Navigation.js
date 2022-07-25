@@ -10,7 +10,7 @@ const Navigation = () => {
           className={styles.navigationBarLogo}
           src={require("../assets/img/Kubernetes_logo.png")}
         ></img>
-        <h1 className={styles.navigationBarTitle}>Price Comparator<span>beta</span></h1>
+        <h1 className={styles.navigationBarTitle}>P2P Games<span>beta</span></h1>
         <SearchBar />
         <Link to="/">Home</Link>
         <Link to="/chart">Chart</Link>
