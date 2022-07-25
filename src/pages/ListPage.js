@@ -1,5 +1,9 @@
+import FilterSearch from "../components/FilterSearch";
+
 const ListPage = () => {
-    return (<h1>ListPage Component</h1>);
+    return (
+        <FilterSearch />
+    );
 };
 
 export default ListPage;
