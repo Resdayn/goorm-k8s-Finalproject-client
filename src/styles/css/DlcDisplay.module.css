@@ -16,7 +16,7 @@
     padding: 1rem;
 }
 
-.DlcTable tr:hover {
-    background-color: grey;
+.DlcTable tbody tr:hover {
+    background-color: rgb(225, 219, 219);
     cursor: pointer;
 }
