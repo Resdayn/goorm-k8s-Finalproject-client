@@ -1,9 +1,13 @@
 import FilterSearch from "../components/FilterSearch";
+import SearchResults from "../components/SearchResults";
 
 const ListPage = () => {
-    return (
-        <FilterSearch />
-    );
+  return (
+    <section>
+      <FilterSearch />
+      <SearchResults />
+    </section>
+  );
 };
 
 export default ListPage;
