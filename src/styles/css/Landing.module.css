@@ -1,9 +1,10 @@
 .imageContainer {
-  
+  width: 100vw;
+  background-color: black;
 }
 
 .landingImage {
     margin: auto;
-  width: auto;
-  max-height: 1000px;
+  width: 70%;
+  max-height: 60vh;
 }
