@@ -6,8 +6,6 @@ const TableDisplay = () => {
         <section className={styles.gridContainer}>
             <TestTable />
             <TestTable />
-            <TestTable />
-            <TestTable />
         </section>
     );
 };
