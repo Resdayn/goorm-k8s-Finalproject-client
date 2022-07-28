@@ -34,9 +34,7 @@ const SearchItem = (props) => {
         </div>
       </td>
       <td className={styles.SearchItemButtonSection}>
-        <button>
-          <a href={props.link}>Purchase</a>
-        </button>
+        <button onClick={() => window.location.href="https://steamcommunity.com/"}>Purchase</button>
       </td>
     </tr>
   );

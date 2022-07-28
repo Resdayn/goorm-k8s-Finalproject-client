@@ -3,12 +3,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2rem 0;
+  margin: 2rem 25vw;
 }
+
 
 /* Filters Section */
 .filterSearchFilterSection {
-  margin: 0 0 0 30vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
@@ -21,26 +21,39 @@
     margin: 1rem;
 }
 
+.filterSearchFilter label {
+  color: #356DE6
+}
+
+.filterSearchFilter select {
+  background-color: white;
+  border: 1px solid #356DE6;
+  border-radius: 5px;
+}
+
+.filterSearchFilter option {
+  color: #356DE6;
+}
+
+
 /* Search bar and Icon Section */
 
 .filterSearchSearchSection {
-  margin: 0 30vw 0 0;
   display: flex;
 }
 
 .filterSearchSearchBar {
   width: 20vw;
+  border: 1px solid #356DE6;
+  border-radius: 10px;
 }
 
 .filterSearchSearchIcon {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
+  align-self: center;
   position: relative;
   right: 30px;
-  top: 3px;
-}
-
-.filterSearchSearchIcon:hover {
   filter: invert(52%) sepia(79%) saturate(5648%) hue-rotate(211deg)
     brightness(94%) contrast(91%);
 }

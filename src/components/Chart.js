@@ -10,7 +10,7 @@ const Chart = () => {
       zoomType: "x",
     },
     title: {
-      text: "USD to EUR exchange rate over time",
+      text: "TEST CHART",
     },
     subtitle: {
       text:
